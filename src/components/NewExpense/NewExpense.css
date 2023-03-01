@@ -36,3 +36,10 @@
   .new-expense button.alternative:active {
     background-color: #ddb3f8;
   }
+  .new-expense button:disabled {
+    background:  #fff;
+    color: rgb(165, 164, 164);
+    cursor: no-drop;
+    border: 1px solid red;
+
+  }
